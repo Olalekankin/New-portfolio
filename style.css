@@ -78,7 +78,7 @@ nav{
     cursor: pointer;
     font-size: 18px;
     font-weight: 700;
-    font-family: 'Lato' sans-serif;
+    font-family: 'Asap Condensed' sans-serif;
     text-transform: uppercase;
     color: var(--black-color);
     background-color: transparent;
@@ -192,6 +192,8 @@ nav{
     font-size: 2em;
     font-weight: 600;
     text-align: left;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 3px;
 }
 
 .project-grid-container{
@@ -273,7 +275,7 @@ nav{
 
 .first-inner h3{
     font-size: 1.2em;
-    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
     word-spacing: 2px;
     color: var(--fade-black);
@@ -383,17 +385,89 @@ nav{
     color: var(--blue-color);
 }
 
-   .float a:hover{
+.float a:hover{
     color: var(--black-color);
-   } 
-
-/* .feedback{
-    bottom: 20px;
-    left: 150px;
-} */
+} 
 
 .support{
     bottom: 20px;
     left: 150px;
 
+}
+
+.contain-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.contain-info h1{
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2rem;
+}
+.contain-info > p{
+    font-family: 'Assistant', sans-serif;
+    font-size:  18px;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+.dtail a{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    text-decoration: none;
+    color: var(--black-color);
+    font-family: 'Assistant', sans-serif;
+}
+
+.dtail a i{
+    margin-right: 1em;
+    font-size: 1.2em;
+    color: var(--blue-color);
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-input{
+    display: block;
+    width: 70%;
+}
+.info-each{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.info-each label{
+    font-family: 'Lato';
+    font-weight: 600;
+
+}
+.info-each input{
+    outline: none;
+    border: 1px solid var(--blue-color);
+    height: 40px;
+}
+.info-each textarea{
+    border: 1px solid var(--blue-color); 
+    outline: none;
+}
+.info-each button{
+    height: 40px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    font-family: 'Lato', sans-serif;
+    border: none;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: var(--blue-color);
 }

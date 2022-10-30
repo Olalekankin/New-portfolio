@@ -8,8 +8,6 @@ const container = document.querySelector('.container');
 
 const theme = document.querySelector('.theme');
 const themeBtn = document.querySelector('.theme-btn');
-const pTags = document.querySelectorAll('p');
-console.log(pTags)
 
 
 let isClicked = false;
@@ -20,7 +18,6 @@ themeBtn.addEventListener('click', function (){
         container.style.backgroundColor = `var(--black-color)`
         themeBtn.style.backgroundColor = `var(--black-color)`
         themeBtn.style.transform = `translateX(30px)`;
-        pTags.style.color = `var(--white-color)`
         isClicked = true;
     
     }else{
